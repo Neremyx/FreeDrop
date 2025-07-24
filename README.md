@@ -129,8 +129,8 @@ FreeDrop uses the [GamerPower API](https://www.gamerpower.com/api) to fetch give
 
 ```
 FreeDrop/
-├── manifest.json          # Extension manifest (Manifest V3)
-├── background.js          # Service worker for background tasks
+├── manifest.json         # Extension manifest (Manifest V3)
+├── background.js         # Service worker for background tasks
 ├── popup.html            # Main popup interface
 ├── popup.js              # Popup functionality
 ├── popup.css             # Popup styles
@@ -143,9 +143,7 @@ FreeDrop/
 │   ├── icon48.png        # 48x48 extension icon
 │   ├── icon128.png       # 128x128 extension icon
 │   └── [platform-icons]  # Custom platform icons (PNG format)
-├── README.md             # Project documentation
-├── LICENSE              # MIT License file
-└── .gitignore           # Git ignore rules
+└── README.md             # Project documentation
 ```
 
 ### Building & Testing
