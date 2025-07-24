@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeDrop Settings - Free Games & Loot Notifier</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="config.css" />
+  </head>
+  <body>
+    <div class="config-container">
+      <header class="config-header">
+        <div class="header-content">
+          <i class="fas fa-gift header-icon"></i>
+          <div class="header-text">
+            <h1>FreeDrop Settings</h1>
+            <p>Configure your free games and loot preferences</p>
+          </div>
+        </div>
+      </header>
+
+      <main class="config-main">
+        <div class="welcome-section" id="welcome-section">
+          <div class="welcome-content">
+            <i class="fas fa-rocket welcome-icon"></i>
+            <h2>Welcome to FreeDrop!</h2>
+            <p>
+              Get notified about free games and loot offers that match your preferences. Configure
+              your settings below to get started.
+            </p>
+          </div>
+        </div>
+
+        <form id="settings-form" class="settings-form">
+          <section class="form-section">
+            <div class="section-header">
+              <i class="fas fa-desktop"></i>
+              <div class="section-text">
+                <h3>Platforms</h3>
+                <p>Select the gaming platforms you're interested in</p>
+              </div>
+            </div>
+            <div class="checkbox-grid" id="platforms-grid">
+              <!-- Platform checkboxes will be populated here -->
+            </div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-header">
+              <i class="fas fa-tags"></i>
+              <div class="section-text">
+                <h3>Giveaway Types</h3>
+                <p>Choose what types of giveaways you want to see</p>
+              </div>
+            </div>
+            <div class="checkbox-grid" id="types-grid">
+              <!-- Type checkboxes will be populated here -->
+            </div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-header">
+              <i class="fas fa-bell"></i>
+              <div class="section-text">
+                <h3>Notifications</h3>
+                <p>Manage how you receive notifications</p>
+              </div>
+            </div>
+            <div class="notification-settings">
+              <label class="toggle-label">
+                <input type="checkbox" id="notifications-enabled" checked />
+                <span class="toggle-slider"></span>
+                <span class="toggle-text">Enable desktop notifications for new giveaways</span>
+              </label>
+            </div>
+          </section>
+
+          <div class="form-actions">
+            <button type="submit" id="save-btn" class="btn btn-primary">
+              <i class="fas fa-save"></i>
+              Save Settings
+            </button>
+          </div>
+        </form>
+
+        <div class="success-message" id="success-message" style="display: none">
+          <i class="fas fa-check-circle"></i>
+          <div>
+            <div class="success-title">Settings Saved!</div>
+            <div class="success-text">
+              Your preferences have been saved successfully. You can now close this tab.
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="config-footer">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="https://github.com" target="_blank">
+              <i class="fab fa-github"></i>
+              View on GitHub
+            </a>
+          </div>
+          <div class="footer-attribution">
+            <span>Powered by </span>
+            <a href="https://www.gamerpower.com" target="_blank">GamerPower.com</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="config.js"></script>
+  </body>
+</html>

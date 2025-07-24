@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeDrop - Free Games & Loot</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="popup-container">
+      <header class="popup-header">
+        <div class="header-content">
+          <i class="fas fa-gift header-icon"></i>
+          <h1>FreeDrop</h1>
+          <button id="settings-btn" class="settings-btn" title="Settings">
+            <i class="fas fa-cog"></i>
+          </button>
+        </div>
+        <div class="header-subtitle">Free Games & Loot</div>
+      </header>
+
+      <div class="loading" id="loading">
+        <i class="fas fa-spinner fa-spin"></i>
+        <span>Loading giveaways...</span>
+      </div>
+
+      <div class="error-message" id="error-message" style="display: none">
+        <i class="fas fa-exclamation-triangle"></i>
+        <div>
+          <div class="error-title">No Configuration Found</div>
+          <div class="error-text">Please configure your preferences first.</div>
+          <button id="configure-btn" class="configure-btn">
+            <i class="fas fa-cog"></i> Configure Now
+          </button>
+        </div>
+      </div>
+
+      <div class="giveaways-container" id="giveaways-container">
+        <!-- Giveaways will be populated here -->
+      </div>
+
+      <div class="no-giveaways" id="no-giveaways" style="display: none">
+        <i class="fas fa-search"></i>
+        <div class="no-giveaways-text">
+          <div>No giveaways found</div>
+          <div class="no-giveaways-subtitle">Try adjusting your filter preferences</div>
+        </div>
+      </div>
+
+      <footer class="popup-footer">
+        <div class="footer-content">
+          <div class="last-updated" id="last-updated">
+            <i class="fas fa-clock"></i>
+            <span>Last updated: Never</span>
+          </div>
+          <button id="refresh-btn" class="refresh-btn" title="Refresh">
+            <i class="fas fa-sync-alt"></i>
+          </button>
+        </div>
+        <div class="attribution">
+          <span>Powered by </span>
+          <a href="https://www.gamerpower.com" target="_blank">GamerPower.com</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
