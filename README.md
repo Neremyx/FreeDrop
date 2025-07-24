@@ -1,6 +1,6 @@
 # FreeDrop - Free Games & Loot Notifier
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/freedrop)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Neremyx/FreeDrop)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-brightgreen.svg)](https://developer.chrome.com/docs/extensions/)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-orange.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
@@ -24,8 +24,8 @@
 1. **Download the Extension**
 
    ```bash
-   git clone https://github.com/yourusername/freedrop.git
-   cd freedrop
+   git clone https://github.com/Neremyx/FreeDrop.git
+   cd FreeDrop
    ```
 
 2. **Load in Chrome**
@@ -127,8 +127,8 @@ FreeDrop uses the [GamerPower API](https://www.gamerpower.com/api) to fetch give
 
 ### Project Structure
 
-```
-freedrop/
+````
+FreeDrop/
 ├── manifest.json          # Extension manifest (Manifest V3)
 ├── background.js          # Service worker for background tasks
 ├── popup.html            # Main popup interface
@@ -146,16 +146,14 @@ freedrop/
 ├── README.md             # Project documentation
 ├── LICENSE              # MIT License file
 └── .gitignore           # Git ignore rules
-```
-
-### Building & Testing
+```### Building & Testing
 
 1. **Clone and Setup**
 
    ```bash
-   git clone https://github.com/yourusername/freedrop.git
-   cd freedrop
-   ```
+   git clone https://github.com/Neremyx/FreeDrop.git
+   cd FreeDrop
+````
 
 2. **Load in Chrome**
 
@@ -185,7 +183,7 @@ We welcome contributions! Here's how to get started:
 1. **Fork the Repository**
 
    ```bash
-   git fork https://github.com/yourusername/freedrop.git
+   git fork https://github.com/Neremyx/FreeDrop.git
    ```
 
 2. **Create a Feature Branch**
@@ -253,14 +251,14 @@ We welcome contributions! Here's how to get started:
 
 If you encounter issues or have suggestions:
 
-1. **🐛 Bug Reports**: [Create an issue](https://github.com/yourusername/freedrop/issues) with:
+1. **🐛 Bug Reports**: [Create an issue](https://github.com/Neremyx/FreeDrop/issues) with:
 
    - Chrome version
    - Steps to reproduce
    - Expected vs actual behavior
    - Console error messages (if any)
 
-2. **💡 Feature Requests**: [Open an enhancement issue](https://github.com/yourusername/freedrop/issues/new)
+2. **💡 Feature Requests**: [Open an enhancement issue](https://github.com/Neremyx/FreeDrop/issues/new)
 
    - Use the "enhancement" label
    - Describe the feature and its benefits
@@ -282,8 +280,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Development**: ✅ Active
 - **Distribution**: 📂 GitHub only (open source)
-- **Issues**: [View open issues](https://github.com/yourusername/freedrop/issues)
-- **Latest Release**: [v1.0.0](https://github.com/yourusername/freedrop/releases)
+- **Issues**: [View open issues](https://github.com/Neremyx/FreeDrop/issues)
+- **Latest Release**: [v1.0.0](https://github.com/Neremyx/FreeDrop/releases)
 
 ## 🔗 Links
 
