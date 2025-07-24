@@ -127,7 +127,7 @@ FreeDrop uses the [GamerPower API](https://www.gamerpower.com/api) to fetch give
 
 ### Project Structure
 
-````
+```
 FreeDrop/
 ├── manifest.json          # Extension manifest (Manifest V3)
 ├── background.js          # Service worker for background tasks
@@ -146,14 +146,16 @@ FreeDrop/
 ├── README.md             # Project documentation
 ├── LICENSE              # MIT License file
 └── .gitignore           # Git ignore rules
-```### Building & Testing
+```
+
+### Building & Testing
 
 1. **Clone and Setup**
 
    ```bash
    git clone https://github.com/Neremyx/FreeDrop.git
    cd FreeDrop
-````
+   ```
 
 2. **Load in Chrome**
 
